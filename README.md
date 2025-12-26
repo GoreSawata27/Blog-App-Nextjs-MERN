@@ -1,34 +1,61 @@
-# Simplified Blogging Application
+# 📝 Blog Application (Next.js + MERN Stack)
 
-This is a simplified blogging application built with the MERN stack (MongoDB, Express, React/Next.js, Node.js) and Cloudinary for image uploads. The project includes responsive UI based on Figma design screens and implements CRUD functionality and JWT-based authentication.
+A full-stack **Blog Application** built using the **MERN stack** with **Next.js** on the frontend.  
+This project supports authentication, image uploads, and full CRUD operations for blog posts.
 
-## Live Demo
+🔗 **Repository:** https://github.com/GoreSawata27/blog-application-nextjs-mern  
+🌐 **Live Frontend:** https://deploy-frontend-tau.vercel.app/
 
-- **Frontend:** [https://deploy-frontend-tau.vercel.app/](https://deploy-frontend-tau.vercel.app/)
-- **Backend:** Deployed on Render
+---
 
-## Features
+## 📌 Table of Contents
 
-- Responsive UI for desktop, tablet, and mobile.
-- JWT-based authentication (login and registration).
-- Blog post CRUD operations (Create, Read, Update, Delete).
-- Image uploads via Cloudinary.
-- Restriction of CRUD operations to authenticated users.
+- [Introduction](#-introduction)
+- [Features](#-features)
+- [Tech Stack](#-tech-stack)
 
-## Tech Stack
+---
+
+## 📖 Introduction
+
+This is a **full-stack blog platform** where users can:
+
+- Register and log in
+- Create, edit, and delete blog posts
+- Upload images using Cloudinary
+- View blogs with a responsive UI
+
+The frontend is built with **Next.js**, while the backend uses **Node.js, Express, and MongoDB**.
+
+---
+
+## ✨ Features
+
+- User authentication (JWT)
+- Secure protected routes
+- Create, Read, Update, Delete (CRUD) blog posts
+- Image uploads via Cloudinary
+- Responsive UI (mobile & desktop)
+- RESTful API architecture
+
+---
+
+## 🛠 Tech Stack
 
 ### Frontend
-
-- **Next.js 14** (React)
-- **Tailwind CSS** for styling
-- **Axios** for API calls
-- **Context API** for state management
-- **Cloudinary** for image handling
+- Next.js
+- React
+- Tailwind CSS
+- Axios
+- Context API
 
 ### Backend
+- Node.js
+- Express.js
+- MongoDB
+- Mongoose
+- JWT Authentication
+- Cloudinary
 
-- **Node.js** with **Express** for REST API
-- **MongoDB** with **Mongoose** for database
-- **JWT** for authentication
-- **Cloudinary** for image uploads
-- **Render** for backend deployment
+
+
